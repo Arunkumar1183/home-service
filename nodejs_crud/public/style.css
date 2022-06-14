@@ -1,0 +1,59 @@
+nav{
+    background-color: blue;
+    color: white;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    height: 7em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.card{
+    text-align: center;
+    align-items: center;
+    margin: 120px auto;
+}
+.card-title{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.card-head{
+    height: 120px;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+#title{
+    font-family: cursive;
+    font-style: italic;
+}
+
+.alert{
+    position: relative;
+    top: -100px;
+}
+.picture{
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+}
